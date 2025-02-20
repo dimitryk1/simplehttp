@@ -31,7 +31,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 		fmt.Fprintf(w, "Form[%q] = %q\n", k, v)
 	}
 	fmt.Fprintf(w, "\n===> local IP: %q\n\n",GetOutboundIP())
-	fmt.Fprintf(w, "I want to learn more staff<br>That's why I'm here<br>%s", os.Getenv("message"))
+	fmt.Fprintf(w, "\nDima was here\nThat's why I'm here\n%s", os.Getenv("message"))
 }
 
 func GetOutboundIP() net.IP {

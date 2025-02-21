@@ -20,7 +20,7 @@
             "environment": [
                 {
                     "name": "message",
-                    "value": "Hello Dima from fargate container blabla"
+                    "value": "Hello Dima from fargate container feb 21"
                 }
             ],
             "environmentFiles": [],
